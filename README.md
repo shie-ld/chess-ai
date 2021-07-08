@@ -15,11 +15,17 @@ The evaluation function uses [piece square tables](https://www.chessprogramming.
 A global sum is used to keep track of black's evaluation score after each move, which is used to display the 'advantage' bar. 
 
 ## How to Play?
-1. Head over to <link>.
+1. Clone this repository as `git clone https://github.com/shie-ld/chess-ai.git`.
 
-2. Play as white by dragging a piece to your desired location. The AI plays as black. The AI's minimax search depth (which is directly related to how well it will play) can be customised using the 'Search Depth (Black)' dropdown. Using a higher value will improve the AI's accuracy, but it will take longer to decide on the next move.
+2. Change to the required directory by typing `cd chess-ai` in your terminal.
 
-3. To pit the AI against itself, click the 'Start Game' button under Computer vs. Computer. You can stop the game at any time using the 'Stop and Reset' button.
+3. Start a python http server on your local machine on port `8080` as `sudo python3 -m http.server 8080`.
+
+4. Now, head to your browser and type `localhost:8080` in your search bar. 
+
+5. Play as white by dragging a piece to your desired location. The AI plays as black. The AI's minimax search depth (which is directly related to how well it will play) can be customised using the 'Search Depth (Black)' dropdown. Using a higher value will improve the AI's accuracy, but it will take longer to decide on the next move.
+
+6. To pit the AI against itself, click the 'Start Game' button under Computer vs. Computer. You can stop the game at any time using the 'Stop and Reset' button.
 
 ## License
 Use of this project is governed by the [MIT License](LICENSE).
