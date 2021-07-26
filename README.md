@@ -15,7 +15,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/shie-ld/chess-ai">
-    <img src="imag/alpha_beta.png" alt="Logo" width="80" height="80">
+    <img src="img/alpha_beta.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">chess-ai</h3>
